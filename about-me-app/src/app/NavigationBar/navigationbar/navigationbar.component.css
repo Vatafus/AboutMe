@@ -1,0 +1,93 @@
+.container {
+    max-width: 100%;
+}
+
+.navbar {
+    background-color: #595959;
+    height: 130px;
+    font-size: x-large;
+    margin-top: -9px;
+    margin-left: -16px;
+    margin-right: -16px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-components {
+    position: absolute;
+    /* margin-bottom: 50px; */
+    width: 95%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.navbar-components li {
+    position: relative;
+    display: inline;
+    padding-left: 60px;
+    color: #FFFAF0;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: #FFFAF0;
+
+}
+
+
+.navbar div span {
+    display: block;
+    text-align: left;
+}
+
+.logo-1 {
+    font-weight: bold;
+}
+
+.logo-2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: -5px;
+    padding-top: 10px;
+    color: #FFFAF0;
+    padding-left: 25px;
+}
+
+.logo-3 {
+    font-weight: bold;
+    letter-spacing: 20px;
+    padding-top: 15px;
+    color: #19cc82;
+}
+
+.header-container {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFAF0;
+    font-size: 20px;
+    position: relative;
+    padding-left: 600px;
+}
+
+@media (max-width: 2200px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .navbar-components {
+        position: static;
+        margin-top: 20px;
+        width: 100%;
+        /* Ocupă întreaga lățime pentru ecrane mai mici */
+    }
+
+    .header-container {
+        padding-left: 16px;
+        /* Ajustează spațiul între conținut și marginea stângă */
+    }
+}
