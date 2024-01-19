@@ -76,18 +76,40 @@
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-        height: auto;
+        height: 120px;
     }
 
     .navbar-components {
         position: static;
-        margin-top: 20px;
+        margin-top: -70px;
         width: 100%;
+        font-size: 20px;
+        margin-left: 30px;
         /* Ocupă întreaga lățime pentru ecrane mai mici */
     }
 
     .header-container {
-        padding-left: 16px;
+        padding-left: 300px;
         /* Ajustează spațiul între conținut și marginea stângă */
+    }
+
+    .logo-1 {
+        font-weight: bold;
+    }
+
+    .logo-2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: -5px;
+        padding-top: 10px;
+        color: #FFFAF0;
+        padding-left: 25px;
+    }
+
+    .logo-3 {
+        font-weight: bold;
+        letter-spacing: 20px;
+        padding-top: 15px;
+        color: #19cc82;
     }
 }
