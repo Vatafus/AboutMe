@@ -16,7 +16,16 @@
                 <a href="https://github.com/Vatafus" class="fa fa-github"></a>
             </li>
         </ul>
-        <h1>Let's get STARTED</h1>
+        <div class="userprofile hide-details" #userBox>
+            <img src="/assets/PozaProfil.jpg" (click)="openinfo()">
+            <div class="info">
+                <h1>Vatafu Stefan</h1>
+                <p>Born: 02.09.1997</p>
+                <p>From: Bucharest, Romania</p>
+                <a href="#">Connect with me</a>
+            </div>
+            <div class="closeicon" (click)="closeinfo()"></div>
+        </div>
     </section>
 </body>
 
