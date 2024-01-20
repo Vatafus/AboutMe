@@ -20,7 +20,7 @@
             <img src="/assets/PozaProfil.jpg" (click)="openinfo()">
             <div class="info">
                 <h1>Vatafu Stefan</h1>
-                <p>Born: 02.09.1997</p>
+                <p>Born: 02.09</p>
                 <p>From: Bucharest, Romania</p>
                 <a href="#">Connect with me</a>
             </div>
@@ -28,6 +28,66 @@
         </div>
         <div *ngIf="!detailsOpen" class="arrow"></div>
         <div *ngIf="detailsOpen" class="arrow2"></div>
+    </section>
+    <section class="skills">
+        <div>
+            <h1>My Skills</h1>
+            <p>Below you can find both the skills and the level that I think I have for each of them.</p>
+            <div class="row">
+                <!--Left Section-->
+                <section class="col">
+                    <div class="sub-title">
+                        <h2>Front-End Skills</h2>
+                    </div>
+                    <div class="skills-backend">
+                        <div class="skill">
+                            <div class="subject">HTML</div>
+                            <div class="progress-bar" value="60%">
+                                <div class="progress-line" style="max-width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="subject">CSS</div>
+                            <div class="progress-bar" value="50%">
+                                <div class="progress-line" style="max-width: 50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="subject">TypeScript</div>
+                            <div class="progress-bar" value="30%">
+                                <div class="progress-line" style="max-width: 30%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--Right Section-->
+                <section class="col">
+                    <div class="sub-title">
+                        <h2>Back-End Skills</h2>
+                    </div>
+                    <div class="skills-backend">
+                        <div class="skill">
+                            <div class="subject">Java</div>
+                            <div class="progress-bar" value="60%">
+                                <div class="progress-line" style="max-width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="subject">Spring</div>
+                            <div class="progress-bar" value="40%">
+                                <div class="progress-line" style="max-width: 40%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="subject">SQL/MySQL</div>
+                            <div class="progress-bar" value="70%">
+                                <div class="progress-line" style="max-width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
     </section>
 </body>
 
