@@ -19,6 +19,7 @@
     position: absolute;
     /* margin-bottom: 50px; */
     width: 95%;
+    cursor: pointer;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
