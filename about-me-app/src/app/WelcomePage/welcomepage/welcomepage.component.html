@@ -26,6 +26,8 @@
             </div>
             <div class="closeicon" (click)="closeinfo()"></div>
         </div>
+        <div *ngIf="!detailsOpen" class="arrow"></div>
+        <div *ngIf="detailsOpen" class="arrow2"></div>
     </section>
 </body>
 
