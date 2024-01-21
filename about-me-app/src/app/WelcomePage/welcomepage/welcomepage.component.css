@@ -486,6 +486,7 @@ h1 {
     .skills p {
         font-size: 20px;
         text-align: center;
+        color: #808080;
     }
 
     .skills .row {
@@ -572,6 +573,10 @@ h1 {
         width: 99.38%;
     }
 
+    .lifemotto p {
+        color: #808080
+    }
+
     .timeline {
         position: relative;
         max-width: 1200px;
@@ -589,8 +594,14 @@ h1 {
         padding: 20px 30px;
         position: relative;
         border-radius: 6px;
-        background: #7bb2e8;
+        background-color: #3886d4;
         font-size: 15px;
+    }
+
+    .text-box h2,
+    small,
+    p {
+        color: whitesmoke;
     }
 
     .left-container {
