@@ -16,4 +16,12 @@ export class NavigationbarComponent implements OnInit {
     }
   }
 
+  scrollToSkills() {
+    const skillsSection = document.getElementById('skills');
+    if (skillsSection) {
+      skillsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+
 }

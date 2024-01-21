@@ -278,7 +278,7 @@ h1 {
 
     .userprofile {
         width: fit-content;
-        margin: -30px auto;
+        margin: 0px auto;
         display: flex;
     }
 
@@ -368,7 +368,7 @@ h1 {
         height: 40px;
         border: 1px solid #333;
         position: absolute;
-        top: 40%;
+        top: 42%;
         left: 1060px;
         animation: scroll 1.5s infinite;
         -webkit-animation: scroll 1.5s infinite;
@@ -474,7 +474,18 @@ h1 {
     }
 
     .skills {
-        margin-top: 800px;
+        margin-top: 655px;
+        margin-bottom: 750px;
+
+    }
+
+    .skills h1 {
+        font-size: 50px;
+    }
+
+    .skills p {
+        font-size: 20px;
+        text-align: center;
     }
 
     .skills .row {
@@ -482,10 +493,12 @@ h1 {
         display: flex;
         justify-content: space-between;
         margin-top: 70px;
+
     }
 
     .row .col {
         flex-basis: 46%;
+        margin-left: 16.5%;
     }
 
     .row .sub-title h2 {
@@ -552,4 +565,77 @@ h1 {
         top: -1px;
     }
 
+    .lifemotto {
+        position: absolute;
+        margin-top: 100px;
+        text-align: center;
+        width: 99.38%;
+    }
+
+    .timeline {
+        position: relative;
+        max-width: 1200px;
+        margin: 100px auto;
+        padding-right: 150px;
+    }
+
+    .container-timeline {
+        padding: 10px 50px;
+        position: relative;
+        width: 50%;
+    }
+
+    .text-box {
+        padding: 20px 30px;
+        position: relative;
+        border-radius: 6px;
+        background: #7bb2e8;
+        font-size: 15px;
+    }
+
+    .left-container {
+        left: 0;
+    }
+
+    .right-container {
+        left: 58.3%;
+    }
+
+    .container .imgtimeline {
+        position: absolute;
+        width: 40px;
+        border-radius: 50%;
+        right: -20px;
+        top: 32px;
+        z-index: 10;
+    }
+
+    .right-container img {
+        left: -20px;
+    }
+
+    .left-container img {
+        left: 679px;
+    }
+
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        height: 100%;
+        background-color: #808080;
+        top: 0;
+        left: 51.85%;
+        margin-left: -3px;
+        z-index: -1;
+    }
+
+    .text-box h2 {
+        font-weight: 600;
+    }
+
+    .text-box small {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
 }
