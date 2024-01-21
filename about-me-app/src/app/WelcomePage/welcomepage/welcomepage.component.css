@@ -429,7 +429,7 @@ h1 {
         height: 40px;
         border: 1px solid #333;
         position: absolute;
-        top: 40%;
+        top: 42.2%;
         left: 642px;
         animation: scroll 1.5s infinite;
         -webkit-animation: scroll 1.5s infinite;
@@ -479,8 +479,9 @@ h1 {
     }
 
     .skills {
-        margin-top: 655px;
-        margin-bottom: 750px;
+        padding-top: 50px;
+        margin-top: 650px;
+        margin-bottom: 730px;
 
     }
 
@@ -533,7 +534,7 @@ h1 {
         height: 3px;
         top: calc(125% - 1px);
         left: 0;
-        background-color: #0066CC;
+        background-color: #3886d4;
     }
 
     .subject {
@@ -566,7 +567,7 @@ h1 {
         position: absolute;
         width: 100%;
         height: 7px;
-        background-color: #0066CC;
+        background-color: #3886d4;
         border-radius: 15px;
         top: -1px;
     }
@@ -705,4 +706,146 @@ h1 {
         border-bottom: 15px solid transparent;
         border-right: 15px solid #3886d4;
     }
+
+    /*Projects*/
+    #projects {
+        position: relative;
+        padding-bottom: 300px;
+        padding-top: 50px;
+    }
+
+    .projects .title {
+        color: black;
+        font-size: 50px;
+    }
+
+    .color-container {
+        border-color: rgb(163, 163, 163);
+        background: rgb(250, 250, 250);
+    }
+
+    .project-img {
+        border-radius: 2rem;
+        width: 90%;
+        height: 90%;
+    }
+
+    .project-title {
+        margin: 1rem;
+        color: #808080;
+
+    }
+
+    .project-btn {
+        color: #808080;
+        border-color: rgb(163, 163, 163);
+    }
+
+
+    .experience-details-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about-containers {
+        gap: 2rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .details-container {
+        padding: 1.5rem;
+        flex: 1;
+        background: white;
+        border-radius: 2rem;
+        border: rgb(53, 53, 53) 0.1rem solid;
+        height: 600px;
+        border-color: rgb(163, 163, 163);
+        text-align: center;
+    }
+
+    .color-container {
+        border-color: rgb(163, 163, 163);
+        background: rgb(250, 250, 250);
+    }
+
+    .article-container {
+        display: flex;
+        text-align: initial;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 2.5rem;
+        justify-content: space-around;
+    }
+
+    .experience-sub-title {
+        color: rgb(85, 85, 85);
+        font-weight: 600;
+        font-size: 1.75rem;
+        margin-bottom: 2rem;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .btn {
+        font-weight: 600;
+        transition: all 300ms ease;
+        padding: 1rem;
+        width: 8rem;
+        border-radius: 2rem;
+    }
+
+    .btn-color-2 {
+        border: rgb(53, 53, 53) 0.1rem solid;
+    }
+
+    .btn-color-2:hover {
+        cursor: pointer;
+    }
+
+    .btn-color-2:hover {
+        background: rgb(53, 53, 53);
+        color: white;
+    }
+
+    .btn-color-2 {
+        background: none;
+    }
+
+    .btn-color-2:hover {
+        border: rgb(255, 255, 255) 0.1rem solid;
+    }
+
+    /*Footer*/
+    .footer {
+        background-color: #595959;
+        height: 100px;
+        font-size: x-large;
+        margin-top: -9px;
+        margin-left: -16px;
+        margin-right: -16px;
+        margin-bottom: -8px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 6px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 6px;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer p {
+        margin: 0;
+        font-size: 14px;
+        padding-left: 1150px;
+    }
+
+
 }

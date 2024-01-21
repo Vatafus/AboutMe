@@ -30,4 +30,11 @@ export class NavigationbarComponent implements OnInit {
     }
   }
 
+  scrollToProjects() {
+    const projectsSection = document.getElementById('projects');
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
 }

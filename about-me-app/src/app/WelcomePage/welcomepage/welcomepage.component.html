@@ -4,6 +4,7 @@
 <app-navigationbar></app-navigationbar>
 
 <body class="container">
+    <!--About-->
     <section class="start" id="aboutSection">
         <ul class="socialmedia">
             <li>
@@ -33,6 +34,7 @@
         <div *ngIf="!detailsOpen" class="arrow"></div>
         <div *ngIf="detailsOpen" class="arrow2"></div>
     </section>
+    <!--Skills-->
     <section class="skills" id="skills">
         <div>
             <h1>My Skills</h1>
@@ -93,6 +95,57 @@
             </div>
         </div>
     </section>
+    <!--Projects-->
+    <section class="projects" id="projects">
+        <h1 class="title">Projects Comming Soon</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <!-- <img src="" alt="Project 1" class="project-img" /> -->
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <!-- <img src="" alt="Project 2" class="project-img" /> -->
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <!-- <img src="" alt="Project 3" class="project-img" /> -->
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--The Road-->
     <section class="theroad" id="theroad">
         <h1>My road so far</h1>
         <div class="timeline">
@@ -152,6 +205,9 @@
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <p>Copyright &#169; 2024 Vatafu Stefan. All Rights Reserved.</p>
+    </footer>
 </body>
 
 </html>

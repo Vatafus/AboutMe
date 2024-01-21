@@ -4,12 +4,15 @@
 
 .navbar {
     background-color: #595959;
-    height: 130px;
+    height: 131px;
     font-size: x-large;
     margin-top: -9px;
     margin-left: -16px;
     margin-right: -16px;
-    border-radius: 10px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
     position: relative;
     display: flex;
     align-items: center;
@@ -59,7 +62,7 @@
     font-weight: bold;
     letter-spacing: 20px;
     padding-top: 15px;
-    color: #0066CC;
+    color: #3886d4;
 }
 
 .header-container {
@@ -116,6 +119,6 @@
         font-weight: bold;
         letter-spacing: 20px;
         padding-top: 15px;
-        color: #0066CC;
+        color: #3886d4;
     }
 }
