@@ -23,5 +23,11 @@ export class NavigationbarComponent implements OnInit {
     }
   }
 
+  scrollToTheRoad() {
+    const theRoadSection = document.getElementById('theroad');
+    if (theRoadSection) {
+      theRoadSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 
 }
