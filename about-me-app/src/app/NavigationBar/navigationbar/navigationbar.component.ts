@@ -37,4 +37,11 @@ export class NavigationbarComponent implements OnInit {
     }
   }
 
+  scrollToContact() {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
 }

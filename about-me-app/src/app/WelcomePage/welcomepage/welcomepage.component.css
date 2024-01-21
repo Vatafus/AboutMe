@@ -823,6 +823,77 @@ h1 {
         border: rgb(255, 255, 255) 0.1rem solid;
     }
 
+    /*Contact*/
+    .contact {
+        margin-bottom: 100px;
+    }
+
+    .contact h2 {
+        padding-left: 220px;
+    }
+
+    .contact-left {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+
+    .contact-inputs {
+        border-radius: 50px;
+        width: 400px;
+        outline: none;
+        height: 50px;
+        padding-left: 25px;
+        font-weight: 500px;
+        text-align: left;
+        margin-left: 60px;
+    }
+
+    .contact-left textarea {
+        height: 140px;
+        padding-top: 15px;
+        border-radius: 20px;
+    }
+
+    .contact-inputs:focus {
+        border: 2px solid #3886d4;
+    }
+
+    .contact-left button {
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+        font-size: 16px;
+        color: #808080;
+        gap: 10px;
+        border: none;
+        border-radius: 50px;
+        background: linear-gradient(270deg, #3886d4, #808080);
+        color: whitesmoke;
+        cursor: pointer;
+        margin-left: 224px;
+    }
+
+    .contact-left-title hr {
+        margin-left: 225px;
+        border: none;
+        width: 120px;
+        height: 5px;
+        background-color: #3886d4;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-top: -10px;
+    }
+
+    .contact-container {
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        padding-left: 1000px;
+        position: relative;
+    }
+
     /*Footer*/
     .footer {
         background-color: #595959;
