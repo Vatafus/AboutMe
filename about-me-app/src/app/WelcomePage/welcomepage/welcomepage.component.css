@@ -236,6 +236,11 @@ h1 {
 }
 
 @media (min-width: 2550px) {
+
+    .start .userprofile .info p {
+        color: #808080;
+    }
+
     .start li {
         display: inline;
         padding-left: 5px;
