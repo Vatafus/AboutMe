@@ -488,8 +488,8 @@ p {
 
 .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 110%;
+    height: 120%;
 }
 
 .project-title {
@@ -523,14 +523,14 @@ p {
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
-    height: 450px;
+    height: 380px;
     border-color: rgb(163, 163, 163);
     text-align: center;
 }
 
 .color-container {
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+    border-color: #fff(163, 163, 163);
+    background: #fff(250, 250, 250);
 }
 
 .article-container {
@@ -545,7 +545,7 @@ p {
 .experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
-    font-size: 1.75rem;
+    font-size: 1.50rem;
     margin-bottom: 2rem;
 }
 
@@ -658,7 +658,7 @@ p {
 /*Footer*/
 .footer {
     background-color: #595959;
-    height: 100px;
+    height: 70px;
     font-size: x-large;
     margin-top: -9px;
     margin-left: -16px;
@@ -678,6 +678,8 @@ p {
     font-size: 14px;
     padding-left: 620px;
 }
+
+/*MEDIA QUERY*/
 
 @media (min-width: 2550px) {
 
@@ -922,6 +924,9 @@ p {
         }
     }
 
+
+    /*Skills*/
+
     .skills {
         padding-top: 50px;
         margin-top: 650px;
@@ -1027,8 +1032,9 @@ p {
         color: #808080
     }
 
+    /*The Road*/
     .theroad {
-        padding-top: 30px;
+        padding-top: 100px;
     }
 
     .timeline {
@@ -1170,8 +1176,8 @@ p {
 
     .project-img {
         border-radius: 2rem;
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
     }
 
     .project-title {
@@ -1206,14 +1212,14 @@ p {
         background: white;
         border-radius: 2rem;
         border: rgb(53, 53, 53) 0.1rem solid;
-        height: 600px;
+        height: 530px;
         border-color: rgb(163, 163, 163);
         text-align: center;
     }
 
     .color-container {
-        border-color: rgb(163, 163, 163);
-        background: rgb(250, 250, 250);
+        border-color: #fff(163, 163, 163);
+        background: #fff(250, 250, 250);
     }
 
     .article-container {
