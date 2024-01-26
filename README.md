@@ -7,4 +7,5 @@ It was created using HTML, CSS and Typescript.
 The project is deployed in GitHub Pages and you can find it here: https://vatafus.github.io/AboutMe/
 
 TODO: responsive for phones. 
+
 TODO: Connect with me redirect to Get in Touch.
